@@ -1,0 +1,1 @@
+https://hub.docker.com/repository/docker/lrporto190/full-cycle-prod
