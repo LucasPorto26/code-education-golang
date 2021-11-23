@@ -1,0 +1,13 @@
+docker build -t lrporto190/hello-lucas . --> construir a imagem 
+docker container run --name hello-lucas-2 -p 8081:8080 lrporto190/hello-lucas --> executar a imagem
+docker images --> listar imagens 
+docker rmi -f  b00fe33a7b68 --> apagar imagem
+docker ps --> listar imagens em execução 
+docker ps -a --> listar todas as imagens
+docker ps rm id_container --> apagar container.
+docker rm $(docker ps -qa) --> apagar todos os container
+
+docker run -it --name hello-full-cycle -p 8080:8080 lrporto190/
+
+
+docker build -t lrporto190/full-cycle-prod -f Dockerfile.prod . --> rodar com Dockerfile especifico
